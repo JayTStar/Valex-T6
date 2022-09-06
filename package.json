@@ -6,13 +6,14 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "",
+    "start": "node dist/src/index.js",
     "dev": "nodemon src/index.ts"
   },
   "author": "Jorge Tadeu <jsbatalha@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@faker-js/faker": "^7.5.0",
+    "bcrypt": "^5.0.1",
     "chalk": "^5.0.1",
     "cors": "^2.8.5",
     "cryptr": "^6.0.3",
